@@ -1,0 +1,60 @@
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#e3000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$MyFragment">
+
+    <TextView
+        android:id="@+id/title_story_view"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/story_text_view"
+        android:textColor="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/title_story_view" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+        android:layout_below="@+id/title_story_view"
+        />
+
+    <TextView
+        android:id="@+id/caption_view"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/image_view"/>
+
+    <TextView
+        android:id="@+id/story_view_location"
+        android:textColor="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/story_text_view" />
+
+    <TextView
+        android:id="@+id/story_view_tags"
+        android:textColor="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/story_view_location" />
+
+</RelativeLayout>

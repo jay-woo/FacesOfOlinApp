@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Olin Admissions</string>
+    <string name="action_settings">Log Out</string>
+    <string name="take_pic">Take picture</string>
+    <string name="choose_pic">Upload picture</string>
+    <string name="story">Write story!</string>
+    <string name="caption">Caption</string>
+    <string name="title">Title of Post</string>
+    <string name="upload">Upload!</string>
+    <string name="tag">Enter Tags Here</string>
+    <string name="location">Location</string>
+    <string name="building_prompt">Building</string>
+    <string name="floor_prompt">Floor</string>
+    <string name="room_prompt">Room</string>
+    <string name="exit_button">EXIT</string>
+    <string name="back">BACK</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="post_title">Title of Post</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="facebook_app_id">889499451060162</string>
+
+</resources>
